@@ -4,8 +4,8 @@ import numpy as np
 
 df = pd.DataFrame(np.arange(1,13).reshape(3,4))
 de.create_xlsx(df,'data')
-df.columns = ['帅','个','皮','hello']
-df.index = ['world','wor','yum']
+df.columns = ['one','two','three','four']
+df.index = ['Tom','Peter','Linux']
 de.save2sheet(df,filename='Test')
 
 
